@@ -33,41 +33,34 @@
 
         <nav>
             <ul class="menu_h">
-                <li><a href="agregarlibrps">Agregar Libros</a></li>
-                <li><a href="agregarCapitulos" target="_blank">La c&aacute;mara secreta</a></li>
-                <li><a href="Pelicula3/PrisioneroA.html" target="_blank">Capitulos</a></li>
+                <li><a href="admin/crearL.php" target="_blank">Agregar Libros</a></li>
+                <li><a href="agregarCapitulos" target="_blank">Agregar Capitulos</a></li>
+                <li><a href="admin/listar.php" target="_blank">Listar Capitulos</a></li>
             </ul>
         </nav>
         <aside >
-            <img src="" width="550" height="250" >
+            <img src="imagenes/portada.jpg" width="350" height="250" >
         </aside>
 
         <section class="secciones">
-            <h1>Agenda Telefonica</h1>
+            <h1>Biblioteca Virtual</h1>
             <article>
             <br>
-            <p>Los directorios telefónicos eran, originalmente, libros o revistas 
-                brindados por las empresas telefónicas, ayuntamientos, etc.
-                En los cuales figuran los números de los abonados en un área geográfica determinada. 
-                <br><br>
-                Disponen a su vez, de teléfonos de interés público, como policía, bomberos, 
-                hospitales, protección civil, atención al drogodependiente, etc. Actualmente, 
-                se distribuyen también en formato electrónico e Internet.
-                Las guías contienen por orden alfabético, los nombres, la dirección postal y el 
-                teléfono de aquellos abonados a líneas de teléfono que autorizan ser publicados 
-                en la guía. En España se las conocía como Páginas Blancas, aunque actualmente existen 
-                diferentes servicios que ofrecen la misma función
+            <p>Una biblioteca es un lugar donde podemos encontrar libros o cualquier otro soporte de un texto, como publicaciones, revistas, documentos, catálogos, etcétera. Una biblioteca puede ser a la vez la pieza de mobiliario donde colocamos los libros (que usualmente está formada por varios estantes horizontales) o el edificio en sí, donde podemos consultar y tomar prestados libros y demás.
+
+                Una biblioteca es un sitio donde podemos recurrir para leer, buscar información y estudiar. En muchas bibliotecas además se ofrecen servicios de búsqueda online, a través de Internet, y consulta de libros digitales.
+                
+                En la mayoría de las bibliotecas los libros se encuentran organizados rigurosamente dentro de diez grandes categorías (lo que se denomina “Clasificación Decimal Universal, o CDU). Estas categorías respondes a la siguiente clasificación: Lengua, Artes, Ciencias exactas y Ciencias naturales, Ciencias aplicadas y tecnología, Literatura, Filosofía y Psicología, Historia y Geografía, Ciencias sociales, Religión y finalmente obras de referencia, es decir diccionarios o enciclopedias.
+                
             </p>
             </article>
         </section>
         
         
         <section class="secciones1"> <hr>
-            <h1>Buscar Contacto</h1>
+            <h1>Buscar Autor</h1>
             <form method="POST" onsubmit="return buscarPorCedula()" >
-                <label>Buscar por:  </label> &nbsp; &nbsp; 
-                <input type="radio" name="busqueda" value="h">&nbsp; &nbsp; <label> Cedula </label> &nbsp; &nbsp;
-                <input type="radio" name="busqueda" value="m"> &nbsp;&nbsp; <label>Correo Electronico </label>  &nbsp; &nbsp; 
+                <label>Ingrese el codigo:  </label> &nbsp; &nbsp; 
                 <br><br>
                 <input type="text" id="cedula" name="cedula" value=""> <br>
                 <br>
@@ -81,24 +74,11 @@
         <section class="secciones1">
             <hr>
             <article class="articulos">
-                <h1>Paginas Amarillas</h1>
-                <p>En muchos países las páginas amarillas se refieren a una guía telefónica 
-                    para empresas organizadas según el tipo de producto o servicio. 
-                    <br>Tal y como el nombre sugiere, en la mayoría de los casos la apariencia 
-                    es la de un libro grueso cuyas páginas contienen fondo amarillo. 
-                    Las Páginas Amarillas también pueden consistir en una base de datos de 
-                    información electrónica que contiene el nombre de empresas.<br>
-                    Las páginas amarillas se suelen publicar en varios tomos de papel 
-                    (depende de la población de la zona) cada año y se distribuye gratuitamente
-                    en todas las residencias y lugares de negocios de una cierta área (generalmente 
-                    una ciudad o comarca). La mayoría de los listados se presentan en letra pequeña 
-                    de color negro y tienen mucha publicidad.
-                    <br>Los editores de las páginas amarillas negocian los valores añadidos que 
-                    proporcionan tales como el empleo de una fuente de texto mayor para resaltar el 
-                    contenido, o mediante el empleo de reclamos publicitarios en los listados por 
-                    categoría. Desde mediados de los años 1990, con la introducción de la impresión a 
-                    cuatro colores, los anuncios publicitarios se empezaron a realizar en color.
-                    Actualmente, las páginas amarillas se publican de forma digital en internet 
+                <h1>Vision</h1>
+                <p>La visión de la Biblioteca de Administración Pública es ser el centro de  información e investigación en la 
+                    disciplina donde estudiantes, facultad e investigadores tengan acceso a los recursos informativos utilizando 
+                    las herramientas tecnológicas más avanzadas; así como fomentar en el estudiantado el desarrollo de competencias
+                    de información 
                 </p>
                 <div class="imagP">
                     <img src="imagenes/pagA.png" width="300" height="300">
@@ -106,17 +86,11 @@
             </article>
             
             <article class="articulos">
-                <h1>Paginas  Blancas</h1>
-                <p>En muchos países, las páginas blancas se refieren a una guía telefónica que incluye 
-                    por orden alfabético a todos los abonados, incluyendo empresas y particulares con 
-                    una o varias líneas telefónicas. Dependiendo de la densidad de población, las 
-                    ciudades más grandes suelen imprimir más de un tomo para el listado.<br><br>
-                    Las Páginas Blancas también pueden consistir en una base de datos de información 
-                    electrónica que contiene el nombre de sus usuarios y sus direcciones electrónicas 
-                    asociadas, de la misma forma que un directorio telefónico.<br> La Páginas blancas 
-                    electrónicas normalmente contienen información adicional, como la localización de 
-                    la oficina, número de teléfono, y correo electrónico, y sus contenidos están 
-                    determinados por un esquema de páginas bla UIncas.<br><br><br><br><br><br>
+                <h1>Vision</h1>
+                <p>Como centro de desarrollo intelectual, educativo y cultural de una comunidad académica entusiasta, 
+                    la Biblioteca de Administración Pública y su personal está dedicado
+                    a apoyar la visión  y misión del Recinto de Río Piedras y el Sistema de 
+                    Bibliotecas expresado en los siguientes compromisos:.<br><br>
                 </p>
                 <div class="imagP">
                     <img src="imagenes/pagB.jpg" width="300" height="300">
@@ -128,13 +102,6 @@
         <section class="secciones1">
             <hr>
             <h2>Colaboradores</h2>
-            <div id="caja1">
-                <br>
-                <img class="img" id="img1" src="imagenes/colab1.png" width="200" height="200">
-                <br><br>
-                <button class="botones">Juan Francisco Peláez Becerra</button> 
-            </div>
-
             <div id="caja2">
                 <img class="img" id="img1" src="imagenes/colab2.jpg" width="200" height="210">
                 <br><br>
